@@ -12,15 +12,14 @@ const Contact = () => {
       exit={{ opacity: 0 }}
       className=" text-[#aaa] text-center"
     >
-      <div>
-        <Image
-          src={Me}
-          alt="name"
-          width={250}
-          height={250}
-          className="mx-auto rounded-lg mt-20 mb-10 md:mt-10"
-        />
-      </div>
+      <Image
+        src={Me}
+        alt="name"
+        width={250}
+        height={250}
+        className="mx-auto rounded-lg mt-20 mb-10 md:mt-20"
+      />
+
       <div>
         <h3 className=" uppercase text-xl text-text-color">
           Send me a message
