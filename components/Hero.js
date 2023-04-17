@@ -1,7 +1,6 @@
 import { motion as m } from "framer-motion";
 import { container, item } from "./animation";
 
-//777 //aaa
 const Hero = () => {
   return (
     <m.main
@@ -20,7 +19,7 @@ const Hero = () => {
           <span className="hover:text-[#aaa] ease-in-out duration-300">n</span>
         </div>
         {/* end of first name */}
-        <div className="flex gap-2 lg:gap-10 flex-wrap">
+        <div className="flex gap-2 md:gap-5 lg:gap-10 flex-wrap">
           {/* middle name */}
           <div>
             <span className="hover:text-[#aaa] ease-in-out duration-300">
@@ -46,7 +45,7 @@ const Hero = () => {
           {/* surname */}
           <div>
             <span className="hover:text-[#aaa] ease-in-out duration-300">
-              i
+              I
             </span>
             <span className="hover:text-[#aaa] ease-in-out duration-300">
               k
@@ -84,7 +83,7 @@ const Hero = () => {
         animate="show"
       >
         <m.h3
-          className="text-lg  font-thin lg:w-[450px] mt-4 tracking-wider name"
+          className="text-lg  font-thin md:w-[450px] mt-4 tracking-wider name"
           variants={item}
         >
           I am a developer based in Nigeria focused on creating interactive
