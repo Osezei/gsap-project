@@ -11,7 +11,7 @@ const Hero = () => {
       transition={{ duration: 0.75, ease: "easeOut" }}
       exit={{ opacity: 0 }}
     >
-      <div className=" text-4xl md:text-5xl lg:text-9xl font-semibold name">
+      <div className=" text-7xl md:text-8xl lg:text-9xl font-semibold name">
         {/* first name */}
         <div className=" flex">
           <span className="hover:text-[#aaa] ease-in-out duration-300 ">J</span>
@@ -84,7 +84,7 @@ const Hero = () => {
         animate="show"
       >
         <m.h3
-          className="text-sm lg:text-lg font-thin lg:w-[450px] mt-4 tracking-wider name"
+          className="text-lg  font-thin lg:w-[450px] mt-4 tracking-wider name"
           variants={item}
         >
           I am a developer based in Nigeria focused on creating interactive
