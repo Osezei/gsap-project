@@ -13,6 +13,6 @@ export const item = {
   hidden: { y: "100%" },
   show: {
     y: "0%",
-    transition: { duration: 0.5 },
+    transition: { duration: 0.75 },
   },
 };

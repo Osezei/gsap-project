@@ -5,20 +5,23 @@ import { container, item } from "./animation";
 const Hero = () => {
   return (
     <m.main
-      className="mt-36 ml-40 text-[#777] "
+      className="mt-36 lg:ml-40 text-[#777] "
       initial={{ opacity: 0, y: "100%" }}
       animate={{ opacity: 1, y: "0%" }}
       transition={{ duration: 0.75, ease: "easeOut" }}
       exit={{ opacity: 0 }}
     >
-      <div className="capitalize text-9xl font-semibold name">
-        <div className="">
-          <span className="hover:text-[#aaa] ease-in-out duration-300">J</span>
+      <div className=" text-4xl md:text-5xl lg:text-9xl font-semibold name">
+        {/* first name */}
+        <div className=" flex">
+          <span className="hover:text-[#aaa] ease-in-out duration-300 ">J</span>
           <span className="hover:text-[#aaa] ease-in-out duration-300">o</span>
           <span className="hover:text-[#aaa] ease-in-out duration-300">h</span>
           <span className="hover:text-[#aaa] ease-in-out duration-300">n</span>
         </div>
-        <div className="flex gap-10">
+        {/* end of first name */}
+        <div className="flex gap-2 lg:gap-10 flex-wrap">
+          {/* middle name */}
           <div>
             <span className="hover:text-[#aaa] ease-in-out duration-300">
               O
@@ -39,6 +42,8 @@ const Hero = () => {
               i
             </span>
           </div>
+          {/* end of middle name */}
+          {/* surname */}
           <div>
             <span className="hover:text-[#aaa] ease-in-out duration-300">
               i
@@ -68,17 +73,18 @@ const Hero = () => {
               a
             </span>
           </div>
+          {/* end of surname */}
         </div>
       </div>
       {/* about */}
       <m.div
-        className="flex justify-end mr-52 overflow-hidden"
+        className="flex justify-end overflow-hidden"
         variants={container}
         initial="hidden"
         animate="show"
       >
         <m.h3
-          className="overflow-hidden text-lg font-thin w-[450px] mt-4 tracking-wider name"
+          className="text-sm lg:text-lg font-thin lg:w-[450px] mt-4 tracking-wider name"
           variants={item}
         >
           I am a developer based in Nigeria focused on creating interactive

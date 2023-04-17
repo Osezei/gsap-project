@@ -4,7 +4,7 @@ import { motion as m } from "framer-motion";
 export default function Home() {
   return (
     <main className="">
-      <Hero />
+      <Hero />{" "}
     </main>
   );
 }

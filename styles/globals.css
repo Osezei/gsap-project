@@ -10,18 +10,48 @@
   padding: 0;
   box-sizing: border-box;
 }
-:root {
-  --foreground-rgb: 0, 0, 0;
+/* navigation animation */
+.navigate {
+  position: relative;
 }
+
+.navigate::after {
+  content: " ";
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+  display: block;
+  height: 3px;
+  width: 0;
+  background: #777;
+  transition: 0.3s;
+}
+.navigate:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+.title-fixed {
+  position: relative;
+}
+
+.title-fixed::after {
+  content: " ";
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+  display: block;
+  height: 3px;
+  width: 100%;
+  background: #fff;
+  transition: 0.3s;
+}
+/* end of navigation animation */
+
 .name {
   font-family: "Barlow", sans-serif;
 }
-boy {
-  /* overflow: hidden; #111 #aaa */
-}
+
 .page-height {
   height: 100vh;
 }
-/* body {
-  overflow: hidden;
-} */
