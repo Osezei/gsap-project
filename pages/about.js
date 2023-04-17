@@ -11,8 +11,8 @@ const About = () => {
     >
       <div>
         <p className="text-lg font-extralight my-10">
-          I am a frontend Developer from looking interested in building web
-          applications alongside learning.
+          I am a frontend Developer interested in building web applications
+          alongside learning. I use the following;
         </p>
       </div>
       <div className="grid grid-rows-3 gap-3 md:grid-cols-3 md:gap-5 text-[#111] place-content-center">
