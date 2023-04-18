@@ -7,7 +7,7 @@ const About = () => {
       animate={{ opacity: 1, y: "0%" }}
       transition={{ duration: 0.75, ease: "easeOut" }}
       exit={{ opacity: 0 }}
-      className="page-height text-[#aaa] name"
+      className=" text-[#aaa] name"
     >
       <div>
         <p className="text-lg font-extralight my-10">
