@@ -13,7 +13,7 @@ const Project = () => {
       exit={{ opacity: 0 }}
       className="text-white"
     >
-      <div className="flex flex-wrap gap-10 place-content-center my-5">
+      <div className="flex flex-wrap gap-10 place-content-center">
         {project.map(({ id, image, title, stack, url, github }) => {
           return (
             <article key={id} className="relative text-[#aaa]">
